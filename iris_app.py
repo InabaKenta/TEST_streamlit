@@ -49,21 +49,21 @@ pred_text = predict(num1,num2,num3,num4)
 
 "予測結果は", pred_text , "です！"
 
-if pred_text=="setosa":
+# if pred_text=="setosa":
     
-    image = Image.open(f'TEST_streamlit/image/iris_{pred_text}.jpg')
-    st.image(image, caption=f'{pred_text}の写真',use_column_width=True)
+#     image = Image.open(f'TEST_streamlit/image/iris_{pred_text}.jpg')
+#     st.image(image, caption=f'{pred_text}の写真',use_column_width=True)
 
-elif pred_text=="virgicolor":
-    image = Image.open(f'TEST_streamlit/image/iris_{pred_text}.jpg')
-    st.image(image, caption=f'{pred_text}の写真',use_column_width=True)
+# elif pred_text=="virgicolor":
+#     image = Image.open(f'TEST_streamlit/image/iris_{pred_text}.jpg')
+#     st.image(image, caption=f'{pred_text}の写真',use_column_width=True)
 
-elif pred_text=="virginica":
-    image = Image.open(f'TEST_streamlit/image/iris_{pred_text}.jpg')
-    st.image(image, caption=f'{pred_text}の写真',use_column_width=True)
+# elif pred_text=="virginica":
+#     image = Image.open(f'TEST_streamlit/image/iris_{pred_text}.jpg')
+#     st.image(image, caption=f'{pred_text}の写真',use_column_width=True)
 
-else:
-    pass
+# else:
+#     pass
 
 
 
